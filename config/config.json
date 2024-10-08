@@ -1,10 +1,19 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "admin",
-    "database": "mepath",
-    "host": "localhost",
-    "dialect": "postgres"
+    "username": "TANHEHANZ",
+    "password": "KLt9gPIye1AG",
+    "database": "alcaldia",
+    "host": "ep-blue-art-40648817-pooler.us-east-1.aws.neon.tech",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+     
+      }
+  
+    }
+  
   },
   "test": {
     "username": "root",
